@@ -19,7 +19,7 @@ NOTE: On Windows, be sure to check the box marked “Add Python to PATH” in th
 
 - Download and unzip this program's source code.
 
-- Using a terminal or command prompt, navigate into the source code directory, `source-code`. You should see a file called `requirements.txt`.
+- Using a terminal or command prompt, navigate into the source code directory (you should see a file called `requirements.txt`).
 
 - Run the following command to install third-party dependencies, including Jupyter Notebook: `python -m pip install -r requirements.txt`
 
