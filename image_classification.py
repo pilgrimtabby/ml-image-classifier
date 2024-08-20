@@ -56,6 +56,10 @@ class ImageClassification:
         self.program_dir = Path(__file__).parent.resolve()
 
         # CIFAR-10 data
+        # This data is sourced from https://www.cs.toronto.edu/~kriz/cifar.html.
+        # For more information about CIFAR-10, see "Learning Multiple Layers of
+        # Features from Tiny Images" by Alex Krizhevsky at
+        # https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf.
         (self.train_img, self.train_label), (self.test_img, self.test_label) = (
             cifar10.load_data()
         )
