@@ -1,6 +1,6 @@
 # Image Classifier
 
-A convolutional neural network trained on the CIFAR-10 dataset. It can classify images that fall within one of the CIFAR -10 categories with about 79% accuracy (and much better for some categories).
+A convolutional neural network trained on the CIFAR-10 dataset. It can classify images that fall within one of the CIFAR-10 categories with about 79% accuracy (and much better for some categories).
 
 This program can test locally stored images. It also runs tests against the CIFAR-10 test image suite and can train new models (one is included in `resources` and used by default because training the model is resource-intensive and can take over an hour).
 
